@@ -1,0 +1,10 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem; /* Default for desktop */
+}
+
+@media (max-width: 768px) {
+  html {
+    scroll-padding-top: 20rem; /* Larger padding for mobile */
+  }
+}
